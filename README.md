@@ -149,20 +149,18 @@ Built an **interactive dashboard** to visualize:
 Funnel-Analysis/
 │
 ├── data/
-│   ├── raw/
-│   │   └── raw_data.csv
+│   ├── messy_data.csv
 │   │
-│   └── processed/
-│       └── cleaned_data.csv
+│   └── cleaned_data.csv
 │
 ├── notebooks/
-│   └── funnel_analysis.ipynb
+│   └── funnel_data_cleaning.ipynb
 │
 ├── sql/
-│   └── funnel_queries.sql
+│   └── funnel_analysis.sql
 │
 ├── dashboard/
-│   └── funnel_dashboard.pbix
+│   └── funnel_analysis_dashboard.pbix
 │
 ├── screenshots/
 │   ├── DASHBOARD.png
@@ -176,8 +174,6 @@ Funnel-Analysis/
 │   ├── session_level_conversion_rate.png
 │   └── users_reached_each_stage.png
 │
-├── docs/
-│   └── project_overview.md
 │
 ├── README.md
 └── requirements.txt
